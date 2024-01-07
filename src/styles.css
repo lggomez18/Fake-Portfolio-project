@@ -17,6 +17,9 @@ color:yellowgreen;*/
    --tertiary-branding-color:yellowgreen;
 
 }
+
+
+
 h2{
     font-size: 50px;
     font-family: 'Playfair Display', serif;
@@ -71,5 +74,11 @@ font-family: "Poppins", sans-serif;
 
 .project-description{
     padding: 120px 60px;
+}
+
+
+.container img{
+    padding: 20px;
+    border-radius: 4px;
 }
 
