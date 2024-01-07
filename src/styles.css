@@ -5,6 +5,30 @@ font-family: 'Cedarville Cursive', cursive;
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
 
+/*
+Colors
+color:bisque;
+color:lightgoldenyellow;
+color:yellowgreen;*/
+
+:root{
+   --branding-color:bisque;
+   --secondary-branding-color:lightgoldenrodyellow;
+   --tertiary-branding-color:yellowgreen;
+
+}
+h2{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+}
 .hero{
     background-color:bisque;
     text-align: center;
@@ -35,6 +59,14 @@ font-family: "Poppins", sans-serif;
     padding: 15px 30px;
 }
 
-
+.btn-branding-outline{
+    background-color:var(--branding-color);
+    border-radius: 6px;
+    border: 1.5px solid var(--secondary-branding-color);
+    color:var(--tertiary-branding-color);
+    font-size: 18px;
+    line-height: 20px;
+    padding: 15px 30px;  
+}
 
 
