@@ -1,15 +1,40 @@
-h1{
-font-family: "Poppins", sans-serif;
-}
+/*
+Fonts
 
-h2{
-font-family: "Playfair Display", serif;
-}
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
 
-p{
-    font-family: "Poppins", sans-serif;
-}
 .hero{
     background-color:bisque;
     text-align: center;
+    padding: 160px 20px;
 }
+
+.hero h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+
+.hero h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    line-height:2;
+}
+
+p{
+font-family: "Poppins", sans-serif;
+}
+
+.btn-branding {
+    background-color: lightgoldenrodyellow;
+    border-radius: 6px;
+    color:yellowgreen;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 15px 30px;
+}
+
+
+
+
