@@ -21,8 +21,9 @@ color:yellowgreen;*/
 
 
 h2{
-    font-size: 50px;
+    font-size: 44px;
     font-family: 'Playfair Display', serif;
+    line-height: 1.5;
 
 }
 
@@ -73,16 +74,20 @@ font-family: "Poppins", sans-serif;
 }
 
 .project-description{
-    padding: 120px 60px;
+    padding: 65px 35px;
 }
 
 
 .container img{
-    padding: 20px;
+    padding:20px;
     border-radius: 4px;
 }
 
-@media (max-width: 960px){
+@media (max-width: 900px){
+    h2{
+        font-size: 45px;
+     }
+    
     .project-description{
         padding: 0;
         text-align: center;
