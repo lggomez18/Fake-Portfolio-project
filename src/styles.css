@@ -14,14 +14,17 @@ color:yellowgreen;*/
 :root{
    --branding-color:bisque;
    --secondary-branding-color:lightgoldenrodyellow;
-   --tertiary-branding-color:yellowgreen;
+   --tertiary-branding-color:olive;
 
 }
 
-
+.navbar-brand{
+font-family: 'Borel', cursive;
+color:olive;
+}
 
 h2{
-    font-size: 44px;
+    font-size: 50px;
     font-family: 'Playfair Display', serif;
     line-height: 1.5;
 
@@ -31,16 +34,20 @@ p{
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
+}
 
+i{
+    color:var(--tertiary-branding-color);
 }
 .hero{
     background-color:bisque;
     text-align: center;
-    padding: 160px 20px;
+    padding: 130px 20px;
 }
 
 .hero h1{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Borel', cursive;
+    color:olive;
     font-size: 45px;
 }
 
@@ -57,7 +64,7 @@ font-family: "Poppins", sans-serif;
 .btn-branding {
     background-color: lightgoldenrodyellow;
     border-radius: 6px;
-    color:yellowgreen;
+    color:olive;
     font-size: 18px;
     line-height: 20px;
     padding: 15px 30px;
@@ -77,12 +84,19 @@ font-family: "Poppins", sans-serif;
     padding: 65px 35px;
 }
 
-
+img{
+    border-radius: 20px;
+}
 .container img{
     padding:20px;
     border-radius: 4px;
 }
 
+footer{
+    background-color: bisque;
+    padding: 40px 5px;
+    text-align: center;
+}
 @media (max-width: 900px){
     h2{
         font-size: 45px;
