@@ -147,7 +147,9 @@ a{
     color:goldenrod;
 }
 
-
+form{
+    font-family: 'Borel', cursive;
+}
 footer{
     background-color: bisque;
     padding: 40px 5px;
