@@ -45,19 +45,22 @@ p{
 i{
     color:var(--tertiary-branding-color);
 }
-.hero{
+.hero,
+.contactbanner{
     background-color:bisque;
     text-align: center;
     padding: 90px 20px;
 }
 
-.hero h1{
+.hero,
+.contactbanner h1{
     font-family: 'Borel', cursive;
     color:olive;
     font-size: 45px;
 }
 
-.hero h2{
+.hero,
+.contactbanner h2{
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
     line-height:2;
