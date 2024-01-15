@@ -45,25 +45,40 @@ p{
 i{
     color:var(--tertiary-branding-color);
 }
-.hero,
+.hero{
+    background-color:bisque;
+    text-align: center;
+    padding: 90px 20px;
+}
+
 .contactbanner{
     background-color:bisque;
     text-align: center;
     padding: 90px 20px;
 }
 
-.hero,
-.contactbanner h1{
+.hero h1{
     font-family: 'Borel', cursive;
     color:olive;
     font-size: 45px;
 }
 
-.hero,
-.contactbanner h2{
+.contactbanner h1{
+    font-family: 'Borel', cursive;
+    color:olive;
+    font-size: 45px;  
+}
+
+.hero h2{
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
     line-height:2;
+}
+
+.contactbanner h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    line-height:2; 
 }
 
 .hero img{
