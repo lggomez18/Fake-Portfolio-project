@@ -23,6 +23,10 @@ font-family: 'Borel', cursive;
 color:olive;
 }
 
+nav a:hover{
+    background:var(--tertiary-branding-color);
+}
+
 h2{
     font-size: 50px;
     font-family: 'Playfair Display', serif;
