@@ -153,6 +153,11 @@ a{
     color:goldenrod;
 }
 
+a:hover{
+    text-decoration: solid;
+    color: olive;
+}
+
 form{
     font-family: 'Borel', cursive;
 }
