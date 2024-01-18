@@ -58,7 +58,7 @@ i{
 .contactbanner{
     background-color:bisque;
     text-align: center;
-    padding: 90px 20px;
+    padding-top: 90px;
 }
 
 .hero h1{
@@ -163,7 +163,7 @@ form{
 }
 footer{
     background-color: bisque;
-    padding: 40px 5px;
+    padding:5px;
     text-align: center;
 }
 
