@@ -55,6 +55,9 @@ i{
     padding: 90px 20px 20px;
 }
 
+
+
+
 .contactbanner{
     background-color:bisque;
     text-align: center;
@@ -163,6 +166,7 @@ form{
 }
 footer{
     background-color: bisque;
+    margin-top: auto;
     padding:5px;
     text-align: center;
 }
