@@ -196,7 +196,14 @@ footer{
     border:none;
     background-color:lightblue;
     position:fixed;
-    bottom:0;
+    bottom:35px;
+    left: 10px;
+    filter: drop-shadow(5px 5px 5px grey);
+    cursor: pointer;
+}
+
+.theme-button:hover{
+    cursor: pointer;
 }
 
 
