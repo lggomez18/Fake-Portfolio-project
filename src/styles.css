@@ -49,6 +49,7 @@ p{
 .logos{
     color:var(--tertiary-branding-color);
 }
+
 .banner{
     background-color:bisque;
     text-align: center;
@@ -127,6 +128,12 @@ img{
     width:100%;
     height:100%;
 }
+
+.container{
+    max-width: fit-content;
+}
+
+
 .container img{
     padding:20px;
     border-radius: 4px;
@@ -197,11 +204,23 @@ footer{
     color:bisque;
 }
 
+.dark .container{
+    background-color:#dde0ab;
+}
+
+.dark .container-aboutme{
+    background-color:#dde0ab;
+
+}
+
 .dark footer{
     background-color: olive;
 
 }
 
+.dark i{
+    color:whitesmoke;
+}
 
 
 
