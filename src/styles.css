@@ -189,5 +189,19 @@ footer{
 }
 
 
+.dark .banner{
+    background-color: olive;
+}
+
+.dark .banner h1{
+    color:bisque;
+}
+
+.dark footer{
+    background-color: olive;
+
+}
+
+
 
 
