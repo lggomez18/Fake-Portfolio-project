@@ -70,7 +70,6 @@ p{
     padding: 10px;
 }
 
-
 .banner img{
  width: 250px;
 }
@@ -149,6 +148,7 @@ a:hover{
 form{
     font-family: 'Borel', cursive;
 }
+
 footer{
     background-color: bisque;
     margin:10px 0;
