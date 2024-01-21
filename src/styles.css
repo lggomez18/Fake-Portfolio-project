@@ -49,46 +49,29 @@ p{
 .logos{
     color:var(--tertiary-branding-color);
 }
-.hero{
+.banner{
     background-color:bisque;
     text-align: center;
-    padding: 90px 20px 20px;
+    padding: 90px;
 }
 
 
-
-
-.contactbanner{
-    background-color:bisque;
-    text-align: center;
-    padding-top: 90px;
-}
-
-.hero h1{
+.banner h1{
     font-family: 'Borel', cursive;
     color:olive;
     font-size: 45px;
+    padding: 10px;
 }
 
-.contactbanner h1{
-    font-family: 'Borel', cursive;
-    color:olive;
-    font-size: 45px;  
-}
-
-.hero h2{
+.banner h2{
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
     line-height:2;
+    padding: 10px;
 }
 
-.contactbanner h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 26px;
-    line-height:2; 
-}
 
-.hero img{
+.banner img{
  width: 250px;
 }
 
