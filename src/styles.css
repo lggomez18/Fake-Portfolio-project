@@ -71,6 +71,7 @@ p{
     padding: 10px;
 }
 
+
 .banner img{
  width: 250px;
 }
@@ -130,7 +131,7 @@ img{
 }
 
 .container{
-    max-width: fit-content;
+    max-width:max-content;
 }
 
 
