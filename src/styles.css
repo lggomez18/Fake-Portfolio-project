@@ -95,7 +95,15 @@ p{
 
 }
 
+.projectsbanner h1{
+    font-family:'Borel', cursive;
+    color:olive;
+    font-size: 35px;
+    margin-top: 30px;
+    text-decoration:underline;
 
+
+}
 
 p{
 font-family: "Poppins", sans-serif;
@@ -131,8 +139,9 @@ img{
 }
 
 .container{
-    max-width:max-content;
+    max-width:100%;
 }
+
 
 
 
