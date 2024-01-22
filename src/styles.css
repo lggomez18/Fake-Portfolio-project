@@ -76,6 +76,7 @@ p{
  width: 250px;
 }
 
+
 .aboutme{
     padding:10px;
     margin-top:auto;
@@ -185,6 +186,51 @@ footer{
     
     }
 }
+
+/*Accessibility feature- font size*/
+.buttons{
+    margin: 0;
+    padding: 0;
+    position:relative;
+    display:flex;
+    justify-content: right;
+    align-items:center;
+    width: 1200px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.banner .buttons .btn{
+    padding: 0 10px;
+    display: inline-flex;
+    background: #ddd;
+    color:darkolivegreen;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.banner .buttons .btn.active{
+    background:#444;
+}
+
+.banner .buttons .btn:nth-child(2){
+font-size: 1.5em;
+}
+
+.banner .buttons .btn:nth-child(3){
+font-size: 2em;
+
+}
+
 
 /*Accessibility feature-contrast*/
 
