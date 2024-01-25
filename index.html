@@ -14,10 +14,9 @@
     <link rel="stylesheet" href="src/styles.css">
 
 </head>
-<body class="dark">
+<body class="content dark" id="text">
 
 <!--Navigation Bar-->
-<div class="content" id="text">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html" title="Homepage">lg</a>
@@ -34,16 +33,17 @@
     </div>
     </nav>
 
+   
 <!--Accessibility Feature= content id=text-->    
-<div class="banner">
+<div class="banner" id="text">
 
         <!--Accessibility feature: font size change-->
-<div class="buttons">
-    <span class="btn active" onclick="document.getElementById ('text').style.fontSize = '1em'">A</span>
-    <span class="btn" onclick="document.getElementById ('text').style.fontSize = '1.25em'">A</span>
-    <span class="btn" onclick="document.getElementById ('text').style.fontSize = '1.75em'">A</span>
-
-</div> 
+       
+        <div class="buttons">
+            <span class="access-btn active" onclick="document.getElementById ('text').style.fontSize = '1em'">A</span>
+            <span class="access-btn"; onclick="document.getElementById ('text').style.fontSize = '1.25em'">A</span>
+            <span class="access-btn" onclick="document.getElementById ('text').style.fontSize = '1.75em'">A</span>
+        </div>
 
     <h1>Leticia Gómez</h1>
     <h2 class="mb-5">Front-end developer based in Austin.</h2>
@@ -51,15 +51,12 @@
     <a href="about.html" class="btn btn-branding" title="work with me">Get started</a>
     </div>
 
+</div>
 
 
-    </div>
+    <p class="text-center m-5">Highlight Projects</p>
 
-    </div>
-
-    <p class="text-center m-5" id="text">Highlight Projects</p>
-
-    <div class="container" id="text">
+    <div class="container">
         <!--First project-->
             <div class="row mb-5">
                 <div class="col col- d-none d-lg-block">
@@ -105,11 +102,13 @@
         </div>
    
 
-    <div class="footer">
+    <div class="footer" id="text">
     <footer> Coded by Leticia Gmx. <a href="https://github.com/lggomez18/Fake-Portfolio-project" title="Leticia Gomez github">Open-sourced</a> <br />
     <i class="logos fa-brands fa-linkedin-in fa-lg"><a href="https://github.com/lggomez18" target="_blank"></a></i> |  <i class="logos fa-brands fa-github fa-lg"><a href="www.linkedin.com/in/leticia-gmz/" target="_blank"></a></i></footer>
     </div>
     
+</div>
+</div>
 </div>
 
 <button class="theme-button">
