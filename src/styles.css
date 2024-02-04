@@ -25,7 +25,8 @@ color:olive;
 }
 
 nav a:hover{
-    background:var(--tertiary-branding-color);
+    text-decoration:underline;
+    color: var(--tertiary-branding-color);
 }
 
 h2{
@@ -239,6 +240,8 @@ font-size: 1.75em;
 .container .content p {
     transition: 0.5s;
 }
+
+
 
 /*Accessibility feature-contrast*/
 
