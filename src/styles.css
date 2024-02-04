@@ -32,7 +32,6 @@ h2{
     font-size:3.125rem;
     font-family: 'Playfair Display', serif;
     line-height: 1.5;
-
 }
 
 h3{
@@ -40,6 +39,7 @@ h3{
     font-family: 'Borel', cursive;
     color:olive;
 }
+
 
 p{
     font-weight: normal;
@@ -51,6 +51,7 @@ p{
     color:var(--tertiary-branding-color);
 }
 
+
 .banner{
     background-color:bisque;
     text-align: center;
@@ -61,13 +62,13 @@ p{
 .banner h1{
     font-family: 'Borel', cursive;
     color:olive;
-    /*=font-size: 45px;*/
+    font-size: 45px;
     padding: 10px;
 }
 
 .banner h2{
     font-family: 'Poppins', sans-serif;
-    /* font-size: 26px; */
+    font-size: 26px;
     line-height:2;
     padding: 10px;
 }
@@ -100,7 +101,7 @@ p{
 .projectsbanner h1{
     font-family:'Borel', cursive;
     color:olive;
-    /* font-size: 35px; */
+    font-size: 35px;
     margin-top: 30px;
     text-decoration:underline;
 
