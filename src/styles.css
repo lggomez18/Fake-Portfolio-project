@@ -69,7 +69,7 @@ p{
 
 .banner h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 26px;
+    font-size: 1.625em;    
     line-height:2;
     padding: 10px;
 }
@@ -257,7 +257,16 @@ font-size: 1.75em;
     left: 10px;
     filter: drop-shadow(5px 5px 5px grey);
     cursor: pointer;
+    display: flex;
+align-items: center;
+justify-content: center;
 }
+
+.fa-2xl {
+    font-size: 32px;
+    line-height: 1;
+    vertical-align: -6px;
+  }
 
 .theme-button:hover{
     cursor: pointer;
